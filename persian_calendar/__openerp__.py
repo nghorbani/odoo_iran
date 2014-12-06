@@ -25,11 +25,13 @@
     'version': '1.5',
     'category': 'Generic Modules/Tools',
     'description': """
-       Persian Calendar Support for OpenERP.
-       After installtion the useeeer can choose wether to use the Persian numbering and Jalali Calendar
-       by selecting the option in his/her own preferences.
-       Whenever the user chooses to do so, if the direction of the language was RTL he will be shown Persian Numbers
-       along with persian date-times.
+Persian Calendar Support for Odoo (OpenERP)
+====================================
+    
+After installtion the user can choose wether to use the Persian numbering and Jalali Calendar
+by selecting the option in his/her own preferences.
+Whenever the user chooses to do so, if the direction of the language was RTL he will be shown Persian Numbers
+along with persian date-times.
     """,
     'summary': 'Persian Calendar Support for OpenERP',
     'author': 'Nima Ghorbani',

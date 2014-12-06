@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<openerp>
+	<data>
+
+            
+
+		<record id="view_users_form_simple_modif_spi" model="ir.ui.view">
+            <field name="name">res.users.preferences.form.spi</field>
+            <field name="model">res.users</field>
+            <field name="inherit_id" ref="base.view_users_form_simple_modif"/>
+            <field name="priority">20</field>
+            <field name="arch" type="xml">
+                <xpath expr='//group[@name="preferences"]' position="after">
+	                	<field name="context_jcalendar" string="JCal?"/>
+                </xpath>
+            </field>
+        </record>
+        
+        <record id="view_users_form_spi" model="ir.ui.view">
+            <field name="name">res.users.form.spi</field>
+            <field name="model">res.users</field>
+            <field name="inherit_id" ref="base.view_users_form"/>
+            <field name="priority">20</field>
+            <field name="arch" type="xml">
+                <xpath expr='//field[@name="lang"]' position="after">
+                	<field name="context_jcalendar" string="JCal?"/>
+                </xpath>
+            </field>
+        </record>
+</data>
+</openerp>
+                        

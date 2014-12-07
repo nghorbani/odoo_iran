@@ -42,13 +42,8 @@ along with persian date-times.
                 'view/res_users.xml',
                 'view/templates.xml'
                 ],
-#      'css':['fa_IR.css'],
-    'js': [
-        'static/src/js/persiannumbers.js',
-#         'static/src/js/format.js',
-    ],
+    'js': [],
     'demo_xml': [],
-    'images': ['images/spi.png',],    
     'installable': True,
     'certificate': '',
 }

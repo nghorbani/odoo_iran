@@ -574,6 +574,7 @@ instance.web.parse_value = function (value, descriptor, value_if_empty) {
             return value_if_empty === undefined ?  false : value_if_empty;
     }
     var tmp;
+    var l10n = instance.web._t.database.parameters;
     switch (descriptor.widget || descriptor.type || (descriptor.field && descriptor.field.type)) {
 		case 'char':
 			if (l10n.direction=='rtl'){ value =  persianJs(value).turn2englishNumber().toString();}
@@ -645,7 +646,11 @@ instance.web.parse_value = function (value, descriptor, value_if_empty) {
                 return instance.web.datetime_to_str(datetime);
             throw new Error(_.str.sprintf(_t("'%s' is not a correct datetime"), value));
         case 'date':
+			console.log('1');
+			console.log(l10n.direction);
+
 			if (l10n.direction=='rtl'){
+				console.log('2')
 				value =  persianJs(value).turn2englishNumber().toString();
 				var date_split = value.split('/');
 				var gdate = Jalali_Date.jalaliToGregorian(date_split[0],date_split[1],date_split[2]);

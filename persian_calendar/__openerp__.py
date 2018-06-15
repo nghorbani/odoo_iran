@@ -35,7 +35,7 @@ along with persian date-times.
     """,
     'summary': 'Persian Calendar Support for OpenERP',
     'author': 'Nima Ghorbani',
-    'website': 'http://ir.linkedin.com/in/nimaghi',
+    'website': 'http://ir.linkedin.com/in/nimagbani',
     'depends': ['base','web'],
     'init_xml': [],
     'data': [

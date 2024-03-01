@@ -2,7 +2,7 @@
 ##############################################################################
 #
 #    Copyright (c) 2010-2013, Nima Ghorbani , All Rights Reserved
-#        Nima ghorbani <nimaqzzz@gmail.com> <http://ir.linkedin.com/in/nimaghi>
+#        Nima ghorbani <https://www.linkedin.com/in/nghorbani/>
 #        Developed Exclusively For SuperPipe International Company <http://www.superpipe.com>
 #
 #    This program is free software: you can redistribute it and/or modify
